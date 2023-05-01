@@ -4,7 +4,7 @@ import * as azure from "@pulumi/azure";
 import * as gcp from "@pulumi/gcp";
 
 // Create an AWS resource (S3 Bucket)
-const s3Bucket = new aws.s3.Bucket("my-bucket");
+const s3Bucket = new aws.s3.Bucket("my-bucket-2");
 
 // Create Azure resources
 //const azureResourceGroup = new azure.core.ResourceGroup("my-resource-group", {location: "West US 2"});
