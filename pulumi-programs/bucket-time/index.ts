@@ -6,8 +6,6 @@ import * as gcp from "@pulumi/gcp";
 // Create an AWS resource (S3 Bucket)
 const s3Bucket = new aws.s3.Bucket("my-bucket");
 
-// here's a comment
-
 // Create Azure resources
 //const azureResourceGroup = new azure.core.ResourceGroup("my-resource-group", {location: "West US 2"});
 //const storageAccount =new azure.storage.Account("my-storage-account", {
